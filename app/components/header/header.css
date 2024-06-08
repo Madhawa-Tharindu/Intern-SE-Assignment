@@ -1,0 +1,4 @@
+.header {
+    @apply flex justify-between items-center w-full h-max shadow-md py-5;
+  }
+  
