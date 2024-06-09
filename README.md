@@ -29,8 +29,8 @@ npm run dev
 Note: Tailwind CSS is primarily used for styling in this project. However, Material UI components are also utilized for certain elements such as pagination and Stack, and for circular progress, as they better align with the requirements of the design.
 
 Technologies Used
-Next.js with TypeScript for server-side rendering
-Tailwind CSS for styling
-Material UI for certain UI components
-Unit testing using Jest
+Next.js with TypeScript for server-side rendering,
+Tailwind CSS for styling,
+Material UI for certain UI components,
+Unit testing using Jest,
 
