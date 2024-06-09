@@ -23,17 +23,17 @@ const Header: React.FC = () => {
                             Dashboard
                         </Link>
                     </div> : null}
-                <p className="pl-12 h4 h-max">Dashboard</p>
+                <p className="h4 h-max font-semibold text-20 leading-32 tracking-wide">Dashboard</p>
             </div>
             <div className="w-max pr-12 flex">
                 <button className="pr-6">
-                    <Image src={"/Notifications.svg"} alt={""} width={17} height={20} />
+                    <Image src={"/Notifications.svg"} alt={"Notification icon"} width={24} height={24} />
                 </button>
                 <button>
-                    <Image src={"/Profile.svg"} alt={""} width={40} height={40} />
+                    <Image src={"/Profile.svg"} alt={"Profile icon"} width={40} height={40} />
                 </button>
-                <button>
-                    <Image src={"/Chevron-down.svg"} alt={""} width={40} height={40} />
+                <button className="pl-[14px]">
+                    <Image src={"/Chevron-down.svg"} alt={"Chevron-down-icon"} width={24} height={24} />
                 </button>
             </div>
         </div>

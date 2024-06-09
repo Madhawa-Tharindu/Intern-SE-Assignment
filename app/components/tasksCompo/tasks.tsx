@@ -3,10 +3,9 @@
 import { ChangeEvent, useContext, useState } from "react";
 import TaskItem from "./taskItem";
 import { TaskListContext } from "@/app/context/TaskListContext";
-import { ITask, ITaskListItemProps } from "@/app/interfaces/tasksInterface";
+import { ITaskListItemProps } from "@/app/interfaces/tasksInterface";
 import Pagination from '@mui/material/Pagination';
 import Stack from '@mui/material/Stack';
-import { log } from "console";
 import { CircularProgress } from "@mui/material";
 
 /*   Note: Tailwind CSS is primarily used for styling in this project. 
@@ -18,7 +17,7 @@ const Tasks: React.FC = () => {
     const { tasks, isLoading } = taskContext!;
 
     const [currentPage, setCurrentPage] = useState<number>(1);
-    const taskItemsPerPage = 8;
+    const taskItemsPerPage = 9;
     const indexOfLastTaskItem = currentPage * taskItemsPerPage;
     const indexOfFirstTaskItem = indexOfLastTaskItem - taskItemsPerPage;
     const currentTaskItems = tasks?.slice(indexOfFirstTaskItem, indexOfLastTaskItem);
@@ -44,7 +43,7 @@ const Tasks: React.FC = () => {
                     </div>
                     <div className="py-4">
                         <Stack spacing={2} className="mx-auto">
-                            <Pagination variant="outlined" shape="rounded" count={Math.ceil(tasks.length / 8)} page={currentPage} onChange={handle} />
+                            <Pagination variant="outlined" shape="rounded" count={Math.ceil(tasks.length / 17)} page={currentPage} onChange={handle} />
                         </Stack>
                     </div>
                 </>}

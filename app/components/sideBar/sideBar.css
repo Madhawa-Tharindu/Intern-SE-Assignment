@@ -4,7 +4,7 @@
   }
   
   .sidebar-header {
-    @apply bg-light-purple flex justify-center content-center py-4 px-6 w-72;
+    @apply bg-light-purple flex-col flex-wrap justify-center content-center px-12 w-72 h-20;
   }
   
   .sidebar-pill {

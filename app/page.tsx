@@ -5,7 +5,7 @@ import Welcome from "./components/welcomeMsg/welcomeMsg";
 import TaskListContextProvider from "./context/TaskListContext";
 import Tasks from "./components/tasksCompo/tasks";
 import ActivityFeed from "./components/activityFeed/activityFeed";
-import CustomPieChart from "./components/taskPrioritiesCharts/cutomPieChart";
+import CustomPieChart from "./components/taskPrioritiesCharts/customPieChart";
 //import CustomPieChart from "./components/piechart";
 
 const Dashboard: React.FC = () => {

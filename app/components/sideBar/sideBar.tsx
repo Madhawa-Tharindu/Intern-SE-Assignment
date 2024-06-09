@@ -8,7 +8,7 @@ const Sidebar: React.FC = () => {
     return (
         <div className="sidebar">
             <div className="sidebar-header">
-                <p className="h3 h-min content-center justify-center items-center">{SIDEBAR_TITLE}</p>
+                <p className="text-2xl h-min font-semibold leading-32 tracking-wide justify-center">{SIDEBAR_TITLE}</p>
             </div>
             <div className="my-16">
                 <Link href="/">
