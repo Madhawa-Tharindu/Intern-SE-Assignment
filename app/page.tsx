@@ -1,10 +1,12 @@
-import Image from "next/image";
+//import Image from "next/image";
 import Sidebar from "./components/sideBar/sideBar";
 import Header from "./components/header/header";
 import Welcome from "./components/welcomeMsg/welcomeMsg";
 import TaskListContextProvider from "./context/TaskListContext";
 import Tasks from "./components/tasksCompo/tasks";
 import ActivityFeed from "./components/activityFeed/activityFeed";
+import CustomPieChart from "./components/taskPrioritiesCharts/cutomPieChart";
+//import CustomPieChart from "./components/piechart";
 
 const Dashboard: React.FC = () => {
   return (
@@ -20,6 +22,7 @@ const Dashboard: React.FC = () => {
                 <Tasks />
                 <div>
                   <ActivityFeed />
+                  <CustomPieChart />
                 </div>
               </TaskListContextProvider>
             </div>
