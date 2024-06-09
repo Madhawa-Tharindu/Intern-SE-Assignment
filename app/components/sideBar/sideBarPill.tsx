@@ -5,7 +5,7 @@ const SidebarPill: React.FC = () => {
         <>
             <div className="sidebar-pill">
                 <Image className='' src="/dashboard.svg" alt={"dashboard"} width={20} height={20} />
-                <p>Dashboard</p>
+                <p className="mb-1">Dashboard</p>
             </div>
         </>
     );

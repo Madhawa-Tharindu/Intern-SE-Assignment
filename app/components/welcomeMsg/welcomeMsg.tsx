@@ -9,10 +9,10 @@ const Welcome: React.FC = () => {
     const headingText: string = "Welcome back, John Doe";
     const subHeadingText: string = "The end of the year is coming. Are you planning your performance interviews? You can do this super efficiently with Acmy.";
     return (
-        isClosed ? null : <div className="welcome" style={{ backgroundImage: "url('/Vector.svg')", backgroundRepeat: 'no-repeat', backgroundPosition: 'right', backgroundPositionX: '90%' }}>
+        isClosed ? null : <div className="welcome" style={{ backgroundImage: "url('/Vector.svg')", backgroundRepeat: 'no-repeat', backgroundPosition: 'right', backgroundPositionX: '94%' }}>
             <div className="welcome-text">
-                <h1 className="h3 w-max">{headingText}</h1>
-                <p className="flex">
+                <h1 className="h3 w-max font-semibold text-h3 mt-1">{headingText}</h1>
+                <p className="flex text-grey mt-1 mb-1">
                     {subHeadingText}
 
                 </p>

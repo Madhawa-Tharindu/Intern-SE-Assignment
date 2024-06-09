@@ -1,14 +1,14 @@
 
   .sidebar {
-    @apply bg-purple text-white h-screen w-max xs:hidden sm:hidden md:hidden lg:hidden xl:block;
+    @apply bg-purple text-white h-screen w-max xs:hidden sm:hidden md:hidden lg:block xl:block;
   }
   
   .sidebar-header {
-    @apply bg-light-purple flex-col flex-wrap justify-center content-center px-12 w-72 h-20;
+    @apply bg-light-purple flex-col flex-wrap justify-center content-center px-10 w-[272px] h-20;
   }
   
   .sidebar-pill {
-    @apply bg-light-purple flex w-64 pl-4 py-4 rounded-3xl mx-auto  items-center h-max;
+    @apply bg-light-purple flex w-64 pl-5 py-3 rounded-3xl mx-auto items-center h-max text-justify;
   }
   
   .sidebar-pill p {
