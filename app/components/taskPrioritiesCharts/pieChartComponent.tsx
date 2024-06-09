@@ -30,13 +30,13 @@ const PieChartComponent = () => {
                 <div className="flex justify-center items-center h-52 w-40">
                     <CircularProgress />
                 </div>
-                : <PieChart className='w-max' width={400} height={200}>
+                : <PieChart className='w-max' width={400} height={227}>
                     <Pie
                         data={data}
                         cx={200}
-                        cy={100}
-                        innerRadius={37}
-                        outerRadius={74}
+                        cy={125}
+                        innerRadius={43}
+                        outerRadius={90}
                         fill="#8884d8"
                         paddingAngle={0}
                         dataKey="value"
