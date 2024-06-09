@@ -16,7 +16,7 @@ const ActivityFeed: React.FC = () => {
             <hr />
             {
                 isLoading ?
-                    <div className="flex justify-center items-center h-full">
+                    <div className="flex justify-center items-center h-full px-3">
                         <CircularProgress />
                     </div>
                     : <div className="overflow-auto h-5/6 ">

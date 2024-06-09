@@ -9,12 +9,14 @@ const ActivityFeedItems: React.FC<ITaskListItemProps> = ({ id,createdBy, todo, h
             <Image src={avatarImage} alt="avatar" width={32} height={32} />
             <div className="p-2">
                 < p className="">
-                    <span className="font-semi-bold">{createdBy}</span>
-                    <span>{' created '}</span>
+                    <span className="font-inter font-semi-bold">{createdBy}</span>
+                    <span className="font-normal font-inter">{' created '}</span>
                     <span className="text-magenta  font-semi-bold">${todo}</span></p>
-                <p className="text-small text-grey">{`${month} ${date}, ${year} at ${hours}:${minutes}`}</p>
+                <p className="text-small text-grey pb-2">{`${month} ${date}, ${year} at ${hours}:${minutes}`}</p> 
+                {/* add mechanism to showing AM and PM of the time later */}
+                <hr />
             </div>
-            <hr />
+            
         </div >
     );
 };
