@@ -1,6 +1,6 @@
 
   .sidebar {
-    @apply bg-purple text-white h-screen w-max xs:hidden sm:hidden md:hidden lg:block xl:block;
+    @apply bg-purple text-white h-screen w-max xs:hidden sm:hidden md:block lg:block xl:block;
   }
   
   .sidebar-header {
