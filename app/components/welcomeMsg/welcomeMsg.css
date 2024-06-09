@@ -1,5 +1,5 @@
 .welcome {
-    @apply flex justify-between border-solid border-2 border-stroke rounded-lg;
+    @apply flex justify-between border-solid border-[1px] border-stroke rounded-lg;
   }
   
   .welcome p {
