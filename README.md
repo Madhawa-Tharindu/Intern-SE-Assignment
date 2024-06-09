@@ -1,42 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This project was created for an assignment for intern software engineer @betalaunch. The goal was to build a simple to-do dashboard application using React.js. The assignment focused on demonstrating :
+
+React.js fundamentals.
+State management.
+Component-based development.
+UI/UX design considerations.
+Responsive web design.
 
 ## Getting Started
 
-First, run the development server:
+1.Clone the repository:
 
-```bash
+2. Copy code
+https://github.com/Madhawa-Tharindu/todo-app-87510097.git
+
+3. Navigate to the project directory
+
+4. install dependencies: 
+npm install
+
+5. Run the project
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# Intern-SE-Assignment
-This assignment is for Intern - Software Engineer @betalaunch
+6. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 /*   Note: Tailwind CSS is primarily used for styling in this project. 
    But,I used Material UI components are also utilized for certain elements like pagination and Stack 
    and for circular progress because of it better align with the requirement of design*/
+
