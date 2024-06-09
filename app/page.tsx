@@ -4,6 +4,7 @@ import Header from "./components/header/header";
 import Welcome from "./components/welcomeMsg/welcomeMsg";
 import TaskListContextProvider from "./context/TaskListContext";
 import Tasks from "./components/tasksCompo/tasks";
+import ActivityFeed from "./components/activityFeed/activityFeed";
 
 const Dashboard: React.FC = () => {
   return (
@@ -17,6 +18,9 @@ const Dashboard: React.FC = () => {
             <div className="flex xs:flex-col sm:flex-col md:flex-col lg:flex-row sm:gap-y-8">
               <TaskListContextProvider>
                 <Tasks />
+                <div>
+                  <ActivityFeed />
+                </div>
               </TaskListContextProvider>
             </div>
             </div>

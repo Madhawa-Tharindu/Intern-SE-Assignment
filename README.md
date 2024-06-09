@@ -36,3 +36,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 # Intern-SE-Assignment
 This assignment is for Intern - Software Engineer @betalaunch
+
+/*   Note: Tailwind CSS is primarily used for styling in this project. 
+   But,I used Material UI components are also utilized for certain elements like pagination and Stack 
+   and for circular progress because of it better align with the requirement of design*/
