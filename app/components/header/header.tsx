@@ -5,6 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Header: React.FC = () => {
+    // need to add logic to handle the side bar
+    // this is not work!
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -14,7 +16,7 @@ const Header: React.FC = () => {
         <div className="header">
             <div className="flex ml-8 items-center">
                 <button className="p-3 md:block lg:block xl:hidden" onClick={toggleMenu}>
-                    <Image src={"/Menu.svg"} alt={""} width={17} height={20} />
+                    <Image src={""} alt={""} width={17} height={20} />
                 </button>
 
                 {isOpen ?
